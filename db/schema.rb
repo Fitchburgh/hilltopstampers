@@ -33,7 +33,7 @@ ActiveRecord::Schema.define(version: 20170223212227) do
     t.string   "hostess"
     t.string   "payment_type"
     t.integer  "order_total"
-    t.date     "date"
+    t.string   "date"
     t.integer  "order_ref"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false

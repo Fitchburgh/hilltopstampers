@@ -8,7 +8,7 @@ class CreateOrders < ActiveRecord::Migration[5.0]
       t.string :hostess
       t.string :payment_type
       t.integer :order_total
-      t.date :date
+      t.string :date
       t.integer :order_ref
 
       t.timestamps
