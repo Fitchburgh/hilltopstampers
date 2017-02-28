@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple webapp to help a stamping business keep track of orders, events, expenditures, and basic customer information in order to avoid using paper.  Future plans to increase efficiency include, statistical analysis of purchased items, and frequency of promotional offers and products
 
-Things you may want to cover:
+* Ruby 2.3.1 / rails 5
 
-* Ruby version
+* Clone repo, initiate postgresql and $rake db:create
 
-* System dependencies
+* $rake db:migrate
 
-* Configuration
+* $rails s
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* navigate to localhost:3000 in chrome.
