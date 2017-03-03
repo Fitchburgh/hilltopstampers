@@ -4,8 +4,8 @@ class CreateCustomers < ActiveRecord::Migration[5.0]
       t.string :name
       t.string :address
       t.string :notes
-      t.string :last_hosted
-      t.string :attendance
+      t.string :last_hosted, default: ''
+      t.string :attendance, default: ''
 
       t.timestamps
     end

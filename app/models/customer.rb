@@ -1,17 +1,23 @@
 class Customer < ApplicationRecord
-  def create_customer
+  def self.create_customer(params, current_user)
+    Customer.new(
+      name: params[:name],
+      address: params[:address],
+      notes: params[:notes],
+      last_hosted: params[:last_hosted],
+      attendance: params[:attendance]
+    )
+  end
+
+  def self.view_customer
 
   end
 
-  def view_customer
+  def self.edit_customer
 
   end
 
-  def edit_customer
-
-  end
-
-  def delete_customer
+  def self.delete_customer
 
   end
 end
