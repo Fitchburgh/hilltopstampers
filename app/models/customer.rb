@@ -1,5 +1,5 @@
 class Customer < ApplicationRecord
-  def self.create_customer(params, current_user)
+  def self.create_customer(params)
     Customer.new(
       name: params[:name],
       address: params[:address],

@@ -1,51 +1,35 @@
 Rails.application.routes.draw do
   get 'parties/index'
 
-  get 'parties/new'
+  post 'parties/new' => 'parties/index'
 
-  get 'parties/edit'
+  patch 'parties/edit'
 
-  get 'parties/delete'
+  delete 'parties/delete'
 
   get 'customers/index'
 
-  get 'customers/new'
+  post 'customers/new'
 
-  get 'customers/edit'
+  patch 'customers/edit'
 
-  get 'customers/delete'
+  delete 'customers/delete'
 
   get 'orders/index'
 
-  get 'orders/new'
+  post 'orders/new'
 
-  get 'orders/edit'
+  patch 'orders/edit'
 
-  get 'orders/delete'
+  delete 'orders/delete'
 
   get 'promos/index'
 
-  get 'promos/new'
+  post 'promos/new'
 
-  get 'promos/edit'
+  patch 'promos/edit'
 
-  get 'promos/delete'
-
-  get 'party/index'
-
-  get 'party/new'
-
-  get 'party/edit'
-
-  get 'party/delete'
-
-  get 'customer/index'
-
-  get 'customer/new'
-
-  get 'customer/edit'
-
-  get 'customer/delete'
+  delete 'promos/delete'
 
   get 'home/index'
 
